@@ -21,7 +21,7 @@ body {
 	background-image: url('images/bgimg.png');
   background-size: cover;
   background-attachment:fixed;
-  background-position:center top;
+  background-position:center bottom;
   font: 18px/1.4 $helvetica;
   color: #ccc;
 }
@@ -158,6 +158,11 @@ img {
 .wrapper-masthead {
   margin-bottom: 50px;
   border-bottom: 1px solid $lightGray;
+  background-color:#333a;
+}
+
+.wrapper-masthead > .container {
+  background-color: transparent;
 }
 
 .masthead {
