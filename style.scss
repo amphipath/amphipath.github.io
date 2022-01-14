@@ -23,7 +23,7 @@ body {
   background-attachment:fixed;
   background-position:center top;
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: #ccc;
 }
 
 .container {
@@ -155,7 +155,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .masthead {
@@ -196,7 +196,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $gray;
+  color: ghostwhite;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -229,7 +229,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: ghostwhite;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -276,9 +276,13 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  padding-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
+  background-color: #dddddd99;
+}
+
+.wrapper-footer > .container {
   background-color: #dddddd99;
 }
 
