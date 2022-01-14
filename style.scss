@@ -155,12 +155,13 @@ img {
 //
 
 .wrapper-masthead {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid $lightGray;
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  
 
   @include mobile {
     text-align: center;
@@ -276,14 +277,14 @@ nav {
 }
 
 .wrapper-footer {
-  padding-top: 50px;
+  margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: #dddddd99;
 }
 
-.wrapper-footer > .container {
-  background-color: #dddddd99;
+.wrapper-footer > .container{
+  background-color: transparent;
 }
 
 footer {
