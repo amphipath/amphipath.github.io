@@ -123,6 +123,7 @@ img {
 .date {
   font-style: italic;
   color: #ddd;
+  margin-bottom: 1em;
 }
 
 // Specify the color of the selection
@@ -267,7 +268,7 @@ nav {
 }
 
 .post {
-  padding: 0 1em;
+  padding: 0.01em 1em;
 
   blockquote {
     margin: 1.8em .8em;
