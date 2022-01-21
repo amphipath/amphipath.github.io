@@ -5,6 +5,10 @@ title: Load Instancing
 
 Ever wonder why summons seem to "fall asleep" when you run too far?
 
+![Summon falling asleep and waking up](https://user-images.githubusercontent.com/12583972/150452361-50cff171-3ea2-43a6-aa63-4f68dfd15e07.mp4)
+
+<video src="https://user-images.githubusercontent.com/12583972/150452361-50cff171-3ea2-43a6-aa63-4f68dfd15e07.mp4" autoplay loop></video>
+
 
 
 ![Load instance boundaries](https://user-images.githubusercontent.com/12583972/150451957-c66b1d2b-4085-4e12-a453-1e5e1ec0882f.mp4)
@@ -15,7 +19,7 @@ Ever wonder why summons seem to "fall asleep" when you run too far?
 
 
 
-![Summon falling asleep and waking up](https://user-images.githubusercontent.com/12583972/150452361-50cff171-3ea2-43a6-aa63-4f68dfd15e07.mp4)
+
 
 
 
