@@ -19,7 +19,7 @@ title: Kalos Timer
     function bombTick(){
         if(bombEta < 0.1){
             bombEta = 11;
-        }
+        };
         bombEta -= 0.1;
 
         if(bombEta < 2) {
@@ -37,7 +37,7 @@ title: Kalos Timer
         bombEta =0;
         clearInterval(bombTimer);
         document.getElementById("bombTimer").innerHTML = '';
-    }
+    };
     </script>
 
 <button onClick="togglePhase(0)">Phase 1</button> <button onClick="togglePhase(1)">Phase 2-1</button> <button onClick="togglePhase(2)">Phase 2-2</button> <button onClick="togglePhase(3)">Phase 2-3</button> <button onClick="togglePhase(4)">Phase 2-4</button>
