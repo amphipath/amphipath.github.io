@@ -30,7 +30,7 @@ title: Kalos Timer
         };
     };
     function bombReset(){
-        bombEta = 11000;
+        bombEta = 11;
         bombTimer = setInterval(bombTick,100);
     };
     function bombEnd(){
@@ -42,4 +42,4 @@ title: Kalos Timer
 
 <button onClick="togglePhase(0)">Phase 1</button> <button onClick="togglePhase(1)">Phase 2-1</button> <button onClick="togglePhase(2)">Phase 2-2</button> <button onClick="togglePhase(3)">Phase 2-3</button> <button onClick="togglePhase(4)">Phase 2-4</button>
 
-<button onClick="bombReset()">Start / Reset Bomb Timer</button> <button onClick="bombReset()">Stop Bomb Timer</button> 
+<button onClick="bombReset()">Start / Reset Bomb Timer</button> <button onClick="bombEnd()">Stop Bomb Timer</button> 
