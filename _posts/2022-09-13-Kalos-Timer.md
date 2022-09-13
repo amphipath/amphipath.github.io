@@ -18,20 +18,20 @@ title: Kalos Timer
     var bombTimerID = 0;
     var laserEta = 0;
     function bombTick(){
-        if(bombEta < 0.1){
-            bombEta = 11;
+        if(bombEta < 100){
+            bombEta = 11000;
         };
-        bombEta -= 0.1;
+        bombEta -= 100;
 
-        if(bombEta < 2) {
-            document.getElementById("bombTimer").innerHTML = '<p style="color:red">' + bombEta + '</p>'
+        if(bombEta < 2000) {
+            document.getElementById("bombTimer").innerHTML = '<span style="color:red">' + bombEta/1000 + '</span>'
         }
         else {
-            document.getElementById("bombTimer").innerHTML = bombEta
+            document.getElementById("bombTimer").innerHTML = bombEta/1000
         };
     };
     function bombReset(){
-        bombEta = 11;
+        bombEta = 11000;
         if(bombTimerID == 0){
             bombTimerID = setInterval(bombTick,100);
         };
