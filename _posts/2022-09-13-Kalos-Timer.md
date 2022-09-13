@@ -15,6 +15,7 @@ title: Kalos Timer
             document.getElementById("phase").innerHTML = phasemap[phase];
     };
     var bombEta = 0;
+    var bombTimerID = 0;
     var laserEta = 0;
     function bombTick(){
         if(bombEta < 0.1){
@@ -31,11 +32,14 @@ title: Kalos Timer
     };
     function bombReset(){
         bombEta = 11;
-        bombTimer = setInterval(bombTick,100);
+        if(bombTimerID == 0){
+            bombTimerID = setInterval(bombTick,100);
+        };
     };
     function bombEnd(){
         bombEta =0;
-        clearInterval(bombTimer);
+        clearInterval(bombTimerID);
+        bombTimerID = 0;
         document.getElementById("bombTimer").innerHTML = '';
     };
     </script>
