@@ -148,7 +148,7 @@ function hackTick(){
     if(testState){
         return 0;
     };
-    if (hackEta = 0){
+    if (hackEta == 0){
         hackEta = 59;
         hackProc();
     } else {
