@@ -20,14 +20,15 @@ var testState = false;
 function togglePhase(n) {
     phase = n;
     if(phase == 0){
+        failRecover();
         roarReset();
         hackReset();
         bombReset();
         laserEnd();
-        roarReset();
         bombEta = 25;
     }
     if(phase == 1){
+        failRecover();
         roarReset();
         hackReset();
         laserEnd();
@@ -132,7 +133,11 @@ function roarTick(){
     }
     else {
         roarEta -= 1;
-        document.getElementById("roarTimer").innerHTML = roarEta;
+        if (roarEta < 10) {
+            document.getElementById("roarTimer").innerHTML = '<span style="color:salmon">' + roarEta + '</span>';
+        } else {
+            document.getElementById("roarTimer").innerHTML = roarEta;
+        }
     };
 };
 function roarReset(){
@@ -173,8 +178,9 @@ function hackReset(){
 function hackRecover(){
     if(hackCount == 4){
         failRecover();
-    } else {
+    } else if (hackCount > 0) {
         hackCount--;
+        document.getElementById("hackCount").innerHTML = hackCount;
     }
 };
 
@@ -184,7 +190,6 @@ function failStart() {
     failTimerID = setInterval(failTick,1000);
     hackEta = 0;
     document.getElementById("hackCount").innerHTML = 4;
-    hackEta = 0;
     clearInterval(hackTimerID);
     hackTimerID = 0;
     document.getElementById("hackTimer").innerHTML = '-';
