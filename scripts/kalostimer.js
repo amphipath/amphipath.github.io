@@ -25,7 +25,7 @@ function togglePhase(n) {
         hackReset();
         bombReset();
         laserEnd();
-        bombEta = 25;
+        bombEta = 25000;
     } else if(phase == 1){
         failRecover();
         roarReset();
@@ -50,7 +50,7 @@ function bombTick(){
         return 0;
     };
     if(bombEta < 100){
-        bombEta = 11000;
+        bombEta = 10200;
     };
     bombEta -= 100;
 
@@ -62,7 +62,7 @@ function bombTick(){
     };
 };
 function bombReset(){
-    bombEta = 11000;
+    bombEta = 10200;
     if(bombTimerID == 0){
         bombTimerID = setInterval(bombTick,100);
     };
