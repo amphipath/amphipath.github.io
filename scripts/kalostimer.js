@@ -32,6 +32,10 @@ function togglePhase(n) {
         hackReset();
         laserEnd();
         bombReset();
+    } else if (phase > 1){
+        bombEta += 17000;
+        roarEta += 270;
+        hackEta += 17;
     }
     document.getElementById("phase").innerHTML = phasemap[phase];
     testState = false;
