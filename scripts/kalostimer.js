@@ -26,8 +26,7 @@ function togglePhase(n) {
         bombReset();
         laserEnd();
         bombEta = 25;
-    }
-    if(phase == 1){
+    } else if(phase == 1){
         failRecover();
         roarReset();
         hackReset();
@@ -162,7 +161,9 @@ function hackTick(){
     document.getElementById("hackTimer").innerHTML = hackEta;
 };
 function hackProc() {
-    hackCount++;
+    if(hackCount < 4) {
+        hackCount++;
+    }
     document.getElementById("hackCount").innerHTML = hackCount;
     if(hackCount == 4){
         failStart();
@@ -187,7 +188,9 @@ function hackRecover(){
 function failStart() {
     failEta = 60;
     document.getElementById("instantFail").style.display = 'inline';
-    failTimerID = setInterval(failTick,1000);
+    if(failTimerID == 0) {
+        failTimerID = setInterval(failTick,1000);
+    };    
     hackEta = 0;
     document.getElementById("hackCount").innerHTML = 4;
     clearInterval(hackTimerID);
