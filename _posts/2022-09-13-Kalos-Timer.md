@@ -34,7 +34,7 @@ title: Kalos Timer
 
 ### Kalos' Will
 
-!(/assets/kalos/kaloswill.gif)
+!({{ site.baseurl }}/assets/kalos/kaloswill.gif)
 
 The main mechanic of the boss fight. The circle in the centre is a gauge that, when full, allows you to use NPC Chat to fire a projectile. Press once to aim, and another time to shoot. Aiming automatically swivels in the 180 degrees forward and can't be controlled. The gauge is used up on the first press; it will start recharging from aiming, not from shooting. You are free to do any other action (including attack) while aiming. The gauge recharges in 20 seconds and can't be sped up, but will not recharge while you are dead.
 
@@ -45,13 +45,16 @@ Use the projectile to hit machines that have been hacked by T-Boy to deactivate 
 Around the map are 4 machines. They are also visible on the mini-map as blue stars when inactive, and red stars when active. The 4 dots on the periphery of the Kalos' Will gauge will also indicate which machine is currently active. When machines activate, a notification will appear in chat.
 
 > T-Boy's intervention awakens the Abyss Eye.
+
 > T-Boy's intervention awakens the Binding Eye.
+
 > T-Boy's intervention awakens the Shelling Aircraft.
+
 > Odium's Orb detects enemies through T-Boy's interference.
 
 If all 4 are active, the gauge will start "burning" and an additional message will show up in chat.
 
-!(/assets/kalos/gaugeburning.gif)
+!({{ site.baseurl }}/assets/kalos/gaugeburning.gif)
 
 > Intensified interference by T-Boy heightens the atmosphere of the skyscraper.
 
