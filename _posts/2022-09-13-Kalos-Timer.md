@@ -34,7 +34,7 @@ title: Kalos Timer
 
 ### Kalos' Will
 
-!({{ site.baseurl }}/assets/kalos/kaloswill.gif)
+![]({{ site.baseurl }}/assets/kalos/kaloswill.gif)
 
 The main mechanic of the boss fight. The circle in the centre is a gauge that, when full, allows you to use NPC Chat to fire a projectile. Press once to aim, and another time to shoot. Aiming automatically swivels in the 180 degrees forward and can't be controlled. The gauge is used up on the first press; it will start recharging from aiming, not from shooting. You are free to do any other action (including attack) while aiming. The gauge recharges in 20 seconds and can't be sped up, but will not recharge while you are dead.
 
@@ -54,13 +54,13 @@ Around the map are 4 machines. They are also visible on the mini-map as blue sta
 
 If all 4 are active, the gauge will start "burning" and an additional message will show up in chat.
 
-!({{ site.baseurl }}/assets/kalos/gaugeburning.gif)
+![]({{ site.baseurl }}/assets/kalos/gaugeburning.gif)
 
 > Intensified interference by T-Boy heightens the atmosphere of the skyscraper.
 
 If all 4 remain active for *1 minute*, the fight instantly fails.
 
-> <span style="color:red">The door does not open to the unqualified...</span>
+<div style="margin:-5px -10px;padding:15px 15px;background-image:linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 2%, #000000 25%, #000000 75%, rgba(0, 0, 0, 0) 98%, rgba(0, 0, 0, 0) 100%);text-align:center;color:#FF0000"><span style="font-size:1.2em"><strong>The door does not open to the unqualified...</strong></span></div>
 
 A machine gets hacked every 1 minute starting from the start of Phase 1. Entering Phase 2 resets all machines. If all 4 machines become hacked, the next hacking will occur 1 minute after the party recovers from the instant-fail condition. In Phase 2, during segment tests and while Kalos is groggy (after passing a test), the hacking timer is paused.
 
