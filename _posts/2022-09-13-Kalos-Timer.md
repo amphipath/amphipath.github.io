@@ -72,7 +72,7 @@ Mathematically speaking, with the 20 second cooldown on Kalos' Will, it is theor
 
 ### Abyss Eye (Missiles)
 
-<video src="/assets/kalos/abyss eye.mp4" width="344px" autoplay loop></video>
+<video src="/assets/kalos/abyss eye.mp4" style="width:344px" autoplay loop></video>
 
 The Abyss Eye is represented on the right side of the minimap and the top-right dot on the gauge. When active, it activates every 15 seconds, firing a volley of 3 missiles aimed at the party. In Phase 1, each missile does 20% of max HP in damage. In Phase 2 it is 30% instead. In both phases getting hit by a missile temporarily reduces your vision; 3 seconds in Phase 1 (before status resistance) and 5 seconds in Phase 2. The number of missiles fired increases as Kalos' HP decreases.
 
@@ -90,7 +90,7 @@ The most effective way to deactivate it is to forgo aiming Kalos' Will and just 
 
 ### Binding Eye (Laser)
 
-<video src="/assets/kalos/bindingeye.mp4" width="452px" autoplay loop></video>
+<video src="/assets/kalos/bindingeye.mp4" style="width:452px" autoplay loop></video>
 
 <span style="margin:auto;display:table;"><img src="/assets/kalos/laser.gif"></span>
 
