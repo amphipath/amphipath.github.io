@@ -56,7 +56,7 @@ Around the map are 4 machines. They are also visible on the mini-map as blue sta
 
 If all 4 are active, the gauge will start "burning" and an additional message will show up in chat.
 
-<span style="text-align:center"><img src="/assets/kalos/gaugeburning.gif"></span>
+<span style="margin:auto;display:table;"><img src="/assets/kalos/gaugeburning.gif"></span>
 
 > Intensified interference by T-Boy heightens the atmosphere of the skyscraper.
 
@@ -72,7 +72,7 @@ Mathematically speaking, with the 20 second cooldown on Kalos' Will, it is theor
 
 ### Abyss Eye (Missiles)
 
-<video src="/assets/kalos/abyss eye.mp4" autoplay loop></video>
+<video src="/assets/kalos/abyss eye.mp4" width=344 autoplay loop></video>
 
 The Abyss Eye is represented on the right side of the minimap and the top-right dot on the gauge. When active, it activates every 15 seconds, firing a volley of 3 missiles aimed at the party. In Phase 1, each missile does 20% of max HP in damage. In Phase 2 it is 30% instead. In both phases getting hit by a missile temporarily reduces your vision; 3 seconds in Phase 1 (before status resistance) and 5 seconds in Phase 2. The number of missiles fired increases as Kalos' HP decreases.
 
@@ -86,7 +86,7 @@ The most effective way to deactivate it is to forgo aiming Kalos' Will and just 
 
 ### Binding Eye (Laser)
 
-<video src="/assets/kalos/bindingeye.mp4" autoplay loop></video>
+<video src="/assets/kalos/bindingeye.mp4" width=452 autoplay loop></video>
 
 ![]({{ site.baseurl }}/assets/kalos/laser.gif)
 
@@ -108,7 +108,7 @@ Unlike the two Eyes, the Aircraft is deactivated not by shooting its core, but i
 
 <video src="/assets/kalos/hitdrone.mp4" autoplay loop></video>
 
-<span style="font-size:0.6em;text-align:center">Video from 진격캐넌 livestream</span>
+<span style="font-size:0.6em;margin:auto; display:table;">Video from 진격캐넌 livestream</span>
 
 If the Aircraft is within range of the spark, it takes a hit. Because it is moving, and is high in the air, it is harder to shoot than the two Eyes. Additionally, while any number of party members may shoot the Eyes simultaneously, the generators each go offline for a few seconds after being shot, so party members have to stagger and spread out to continue deactivating the Aircraft. Because of this, it takes less shots (2x the number of party members) to fully deactivate.
 
