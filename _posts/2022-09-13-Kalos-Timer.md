@@ -168,7 +168,7 @@ Kalos slams the area in front of him for 30% max HP in damage and knocking peopl
 
 <span style="margin:auto;display:table;"><img src="/assets/kalos/p1barrage small.gif"></span>
 
-Kalos roars and launches a barrage of rockets. The roar is a smaller hitbox around him that does 5% max HP in damage and Seals for 1 second, and is meant to trap people into getting hit by the barrage which happens 0.84 seconds later and does 999% max HP in damage in a tall hitbox that hits above him.
+Kalos roars and launches a barrage of rockets. The roar is a weak initial hit around him that does 5% max HP in damage and Seals for 1 second, and is meant to trap people into getting hit by the second hit which happens 0.84 seconds later and does 999% max HP in damage. Both hits have the same area.
 
 The cooldown of this attack is unusual in that while most boss attacks start off-cooldown, Barrage (in both phases) starts on a cooldown of 150 seconds (2 min 30s) when the party first enters. If the boss is not bound at all, most parties will enter at 29:50 and the first Barrage will occur at 27:20. However, *the cooldown does not tick while the boss is bound*, and hence binding it will delay the attack. For the most part in KMS, this practically means that it occurs on a 2m40s cooldown. However, interactions with Zero's Critical Bind, longer binds like Archmage I/L's Freezing Breath, and Lucid's Earrings are as of yet untested.
 
