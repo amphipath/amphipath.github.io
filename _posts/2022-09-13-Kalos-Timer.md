@@ -38,6 +38,8 @@ title: Kalos Timer
 
 The main mechanic of the boss fight. The circle in the centre is a gauge that, when full, allows you to use NPC Chat to fire a projectile. Press once to aim, and another time to shoot. Aiming automatically swivels in the 180 degrees forward and can't be controlled. The gauge is used up on the first press; it will start recharging from aiming, not from shooting. You are free to do any other action (including attack) while aiming. The gauge recharges in 20 seconds and can't be sped up, but will not recharge while you are dead.
 
+<video src="/assets/kalos/shootwill.mp4" autoplay loop></video>
+
 Use the projectile to hit machines that have been hacked by T-Boy to deactivate them.
 
 ### T-Boy's Interference (Hacking)
@@ -54,7 +56,7 @@ Around the map are 4 machines. They are also visible on the mini-map as blue sta
 
 If all 4 are active, the gauge will start "burning" and an additional message will show up in chat.
 
-![]({{ site.baseurl }}/assets/kalos/gaugeburning.gif)
+<span style="text-align:center"><img src="/assets/kalos/gaugeburning.gif"></span>
 
 > Intensified interference by T-Boy heightens the atmosphere of the skyscraper.
 
@@ -62,7 +64,7 @@ If all 4 remain active for *1 minute*, the fight instantly fails.
 
 <div style="margin:-5px -10px;padding:15px 15px;background-image:linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 2%, #000000 25%, #000000 75%, rgba(0, 0, 0, 0) 98%, rgba(0, 0, 0, 0) 100%);text-align:center;color:#FF0000"><span style="font-size:1.2em"><strong>The door does not open to the unqualified...</strong></span></div>
 
-A machine gets hacked every 1 minute starting from the start of Phase 1. Entering Phase 2 resets all machines. If all 4 machines become hacked, the next hacking will occur 1 minute after the party recovers from the instant-fail condition. In Phase 2, during segment tests and while Kalos is groggy (after passing a test), the hacking timer is paused.
+A machine gets hacked every 1 minute starting from the start of Phase 1. Entering Phase 2 resets all machines. If all 4 machines become hacked, the next hacking will occur 1 minute *after* the party recovers from the instant-fail condition. In Phase 2, during segment tests and while Kalos is groggy (after passing a test), the hacking timer is paused.
 
 If your party has the damage to clear the boss fight (assuming 230-240 AUT), Phase 1 will easily be a 1-bind down. It is best to wait for party member bursts to come back up before going into Phase 2. Because of this, you will not remain in Phase 1 long enough for T-Boy's hacking to matter, and it is best to not bother with Kalos' Will (except to deactivate laser) and to focus on dodging other patterns like Bomb and Roar instead.
 
@@ -70,13 +72,23 @@ Mathematically speaking, with the 20 second cooldown on Kalos' Will, it is theor
 
 ### Abyss Eye (Missiles)
 
+<video src="/assets/kalos/abyss eye.mp4" autoplay loop></video>
+
 The Abyss Eye is represented on the right side of the minimap and the top-right dot on the gauge. When active, it activates every 15 seconds, firing a volley of 3 missiles aimed at the party. In Phase 1, each missile does 20% of max HP in damage. In Phase 2 it is 30% instead. In both phases getting hit by a missile temporarily reduces your vision; 3 seconds in Phase 1 (before status resistance) and 5 seconds in Phase 2. The number of missiles fired increases as Kalos' HP decreases.
 
 Contrary to most boss patterns, the missiles are **not instanced**. A missile that impacts a party member (whether they are invulnerable or not) will be used up on that party member and not pierce.
 
 It is deactivated by firing Kalos' Will into the spherical core in the middle of the tower. It takes 3x the number of members in the party to clear (3 for solo, 18 for a full party). The core will change colour from red to purple to navy to blue (deactivated) as more party members shoot it, so in a full party, a navy coloured core indicates it's 6 (or less) shots away from deactivating.
 
+<video src="/assets/kalos/deactivatemissile.mp4" autoplay loop></video>
+
+The most effective way to deactivate it is to forgo aiming Kalos' Will and just up-jump or flash jump toward the core for a point-blank shot. The same goes for the Binding Eye.
+
 ### Binding Eye (Laser)
+
+<video src="/assets/kalos/bindingeye.mp4" autoplay loop></video>
+
+![]({{ site.baseurl }}/assets/kalos/laser.gif)
 
 The Binding Eye is represented on the right side of the minimap and the bottom left dot on the gauge. When active, it activates every 15 seconds, firing a laser that repeatedly damages for 15% max HP and stuns for 3 seconds (5 seconds in Phase 2), similar to Guardian Angel Slime's laser. The stun is dispellable. When Kalos is below 50% HP in Phase 1, and in Phase 2-2, two lasers are fired instead. In Phase 2-3 and 2-4, three lasers are fired.
 
@@ -84,29 +96,41 @@ Similar to the Abyss Eye, it is deactivated by firing Kalos' Will into the spher
 
 By far the most dangerous of the 4 machines, the stun from this laser will prevent dodging Kalos' attacks and other patterns and will easily lead to deaths. It is imperative that someone is timing the laser and warning the party when to watch out, and indeed in KMS' first clear there was a member in voice who wasn't even fighting the boss but was there purely to time the laser. Either sustained airtime or teleporting across the ground is the best way to dodge the laser while fending off Kalos' attacks.
 
-The stun is serious enough that it is absolutely unacceptable to engage in Phase 2's segment tests while the laser is active. It is imperative to deactivate it right before entering the test.
+The stun is serious enough that it is impractical to engage in Phase 2's segment tests while the laser is active. It should be deactivated before activating the test.
 
 ### Shelling Aircraft (Drone)
+
+![]({{ site.baseurl }}/assets/kalos/guardian.2.0.move.gif)
 
 The Shelling Aircraft is represented on the top of the minimap and the top left dot on the gauge. When active, it drifts left and right across the top of the map, periodically (every 15 seconds in Phase 1, 25 seconds in Phase 2) firing a wide purple laser below. The laser stays for a period of time and deals 40% max HP in damage per tick.
 
 Unlike the two Eyes, the Aircraft is deactivated not by shooting its core, but instead shooting the generators above it which will emit a spark. 
 
+<video src="/assets/kalos/hitdrone.mp4" autoplay loop></video>
+
+<span style="font-size:0.6em;text-align:center">Video from 진격캐넌 livestream</span>
+
 If the Aircraft is within range of the spark, it takes a hit. Because it is moving, and is high in the air, it is harder to shoot than the two Eyes. Additionally, while any number of party members may shoot the Eyes simultaneously, the generators each go offline for a few seconds after being shot, so party members have to stagger and spread out to continue deactivating the Aircraft. Because of this, it takes less shots (2x the number of party members) to fully deactivate.
 
 ### Odium's Orb
 
+![]({{ site.baseurl }}/assets/kalos/orb.gif)
+
 Odium's Orb is not on the minimap when the fight starts, but when active it the minimap icon will bounce around the map to indicate the Orb's position. It is also represented by the bottom right dot on the gauge. When active, it bounces around the map DVD-logo style and deals 30% max HP on contact. In Phase 2, it moves faster.
 
-Similar to the Aircraft, it is deactivated by shooting generators at the bottom of the map which generate a force field. If the Orb comes into contact with the force field, it takes damage. The generators go offline for a few seconds after being shot. The force field remains for 2 seconds which makes the timing flexible; it is possible to deactivate the Orb by shooting the generator quite early and have the Orb move into it (the Orb's travel path is set to always come into contact with the generators). The number of shots required to fully deactivate it is 2x the number of party members.
+<video src="/assets/kalos/hitorb.mp4" autoplay loop></video>
 
-The Orb is easily the least threatening of the 4 machines, but because of the generator downtime it is one of the harder ones to deactivate. There's no indication of how many shots left are required to fully deactivate it, either, unlike the coloured cores of the other 3 machines.
+<span style="font-size:0.6em;text-align:center"><a href="https://youtu.be/1mro1y-lLzA">Video credit</a></span>
+
+Similar to the Aircraft, it is deactivated by shooting generators at the bottom of the map which generate a force field. If the Orb comes into contact with the force field, it takes damage. The generators go offline for a few seconds after being shot. The force field remains for 1.6 seconds which makes the timing flexible; it is possible to deactivate the Orb by shooting the generator quite early and have the Orb move into it (the Orb's travel path is set to always come into contact with the generators). The number of shots required to fully deactivate it is 2x the number of party members.
+
+The Orb is easily the least threatening of the 4 machines, but because of the generator downtime it is one of the harder ones to deactivate when in a party. There's no indication of how many shots left are required to fully deactivate it, either, unlike the coloured cores of the other 3 machines, so it's also harder to keep the orb "low" and save it for an emergency clear.
 
 ### Bombs
 
 Explosions will appear across the map. They will deal 30% max HP in damage. It is possible for them to overlap and stack their damage. Because of this, it is absolutely imperative for someone to be timing them and to warn the party when they are imminent. Bombs appear every 10.2 seconds in both Phase 1 and 2, but in Phase 1 the first Bomb occurrence is delayed to 25 seconds after entering the fight.
 
-(Note: Currently in MSEA, bombs are every 15 seconds in Phase 1. However, when watching the KMS clear videos, they are every 10 seconds. I am guessing that there was a stealth-patch in Ignition to the boss fight, and I will be using info from the clear videos rather than what's currently live in MSEA/GMS instead. - 2022/09/19)
+*(Note: Currently in MSEA, bombs are every 15 seconds in Phase 1. However, when watching the KMS clear videos, they are every 10 seconds. I am guessing that there was a stealth-patch in Ignition to the boss fight, and I will be using info from the clear videos rather than what's currently live in MSEA/GMS instead. - 2022/09/19)*
 
 # Phase 1
 
