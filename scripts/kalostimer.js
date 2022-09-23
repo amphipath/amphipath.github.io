@@ -34,7 +34,7 @@ function togglePhase(n) {
         bombReset();
     } else if (phase > 1){
         bombEta += 17000;
-        roarEta += 270;
+        roarEta += 27;
         hackEta += 17;
     }
     document.getElementById("phase").innerHTML = phasemap[phase];
@@ -48,6 +48,9 @@ function toggleTest() {
     document.getElementById("hackTimer").innerHTML = '<span style="color:steelblue">Paused for test</span>';
     document.getElementById("roarTimer").innerHTML = '<span style="color:steelblue">Paused for test</span>';
 };
+function toggleTtest(){
+    testState = false;
+}
 
 function bombTick(){
     if(testState){

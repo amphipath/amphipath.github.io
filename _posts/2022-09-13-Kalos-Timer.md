@@ -6,7 +6,7 @@ title: Kalos Timer
 <h1>Phase <a id="phase">1</a></h1>
 <h3>Hacked Machines: <a id="hackCount"></a></h3>
 <h3>Time to Next Hack: <a id="hackTimer"></a></h3>
-<h3>Barrage: <a id="barrageTimer"></a></h3>
+<h3>Roar: <a id="roarTimer"></a></h3>
 <h3 id="instantFail" style="display:none;color:crimson">All 4 machines hacked. Time to failure: <a id="failTimer" style="display:inherit;color:salmon"></a></h3>
 <h3>Bombs: <a id="bombTimer"></a></h3>
 <h3>Laser: <a id="laserTimer"></a></h3>
