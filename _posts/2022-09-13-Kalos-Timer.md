@@ -16,7 +16,7 @@ title: Kalos Timer
 
 <button onClick="togglePhase(0)">Phase 1 (Click after first person loads in to start)</button> 
 
-<button onClick="togglePhase(1)">Phase 2-1</button> <button onClick="togglePhase(2)">Phase 2-2</button> <button onClick="togglePhase(3)">Phase 2-3</button> <button onClick="togglePhase(4)">Phase 2-4</button> <button onClick="toggleTest()">Test Start</button>
+<button onClick="togglePhase(1)">Phase 2-1</button> <button onClick="togglePhase(2)">Phase 2-2</button> <button onClick="togglePhase(3)">Phase 2-3</button> <button onClick="togglePhase(4)">Phase 2-4</button> <button onClick="toggleTest()">Test Start</button> <button onClick="failTest()">Test Failed</button>
 
 <button onClick="bombReset()">Start / Reset Bomb Timer</button> <button onClick="bombEnd()">Stop Bomb Timer</button> 
 

@@ -115,9 +115,10 @@ The Orb is easily the least threatening of the 4 machines, but because of the ge
 
 <span style="margin:auto;display:table;"><img src="/assets/kalos/bomb.gif"></span>
 
-Explosions will appear across the map. They will deal 30% max HP in damage. It is possible for them to overlap and stack their damage. Because of this, it is absolutely imperative for someone to be timing them and to warn the party when they are imminent. Bombs appear every 10.2 seconds in both Phase 1 and 2, but in Phase 1 the first Bomb occurrence is delayed to 25 seconds after entering the fight.
+Explosions will appear across the map. They will deal 30% max HP in damage. It is possible for them to overlap and stack their damage. Because of this, it is absolutely imperative for someone to be timing them and to warn the party when they are imminent. 
 
-*(Note: Currently in MSEA, bombs are every 15 seconds in Phase 1. However, when watching the KMS clear videos, they are every 10 seconds. I am guessing that there was a stealth-patch in Ignition to the boss fight, and I will be using info from the clear videos rather than what's currently live in MSEA/GMS instead. - 2022/09/19)*
+Bombs occur every 15 seconds at the start of Phase 1; this timer becomes 10 seconds after Phase 1 falls below 50% HP. After this, bombs will be every 10.2 seconds instead. In Phase 2, Bombs are always every 10.2 seconds.
+
 
 # Phase 1
 
@@ -143,15 +144,17 @@ Kalos launches grenades from his shoulder, attacking the area behind him for 40%
 
 Kalos slams the area in front of him for 30% max HP in damage and knocking people back while also Stunning them for 1 second. 12 second cooldown. Avoid by being on the platform above/below him.
 
-### Barrage
+### Watcher's Roar
 
 <span style="margin:auto;display:table;"><img src="/assets/kalos/p1barrage small.gif"></span>
 
 Kalos roars and launches a barrage of rockets. The roar is a weak initial hit around him that does 5% max HP in damage and Seals for 1 second, and is meant to trap people into getting hit by the second hit which happens 0.84 seconds later and does 999% max HP in damage. Both hits have the same area.
 
-The cooldown of this attack is unusual in that while most boss attacks start off-cooldown, Barrage (in both phases) starts on a cooldown of 150 seconds (2 min 30s) when the party first enters. If the boss is not bound at all, most parties will enter at 29:50 and the first Barrage will occur at 27:20. However, *the cooldown does not tick while the boss is bound*, and hence binding it will delay the attack. For the most part in KMS, this practically means that it occurs on a 2m40s cooldown. However, interactions with Zero's Critical Bind, longer binds like Archmage I/L's Freezing Breath, and Lucid's Earrings are as of yet untested.
+The cooldown of this attack is unusual in that while most boss attacks start off-cooldown, Roar (in both phases) starts on a cooldown of 150 seconds (2 min 30s) when the party first enters. If the boss is not bound at all, most parties will enter at 29:50 and the first Barrage will occur at 27:20. However, *the cooldown does not tick while the boss is bound*, and hence binding it will delay the attack. For the most part in KMS, this practically means that it occurs on a 2m40s cooldown. However, interactions with Zero's Critical Bind, longer binds like Archmage I/L's Freezing Breath, and Lucid's Earrings are as of yet untested.
 
-When Barrage is used, *a machine (at random) will become hacked instantly* (unless all 4 are already hacked), independent of the normal 1-minute timer.
+*(KMST 1.2.146 has indicated that the cooldown not ticking while the boss is binded may be a bug. Will verify on live patch)*
+
+When Roar is used, *a machine (at random) will become hacked instantly* (unless all 4 are already hacked), independent of the normal 1-minute timer.
 
 # Phase 2-1
 
@@ -199,7 +202,7 @@ Breath has a cooldown of 60 seconds in 2-1, 45 seconds in 2-2, and 30 seconds in
 
 Kalos summons thunderbolts to strike around him. After using the skill, 5 thunderbolts will strike around his centre of mass. The thunderbolts deal 30% max HP in damage and are tall enough to cover the platform above him. No one should remain anywhere near him anyway, so for the most part this isn't a threat.
 
-### Barrage
+### Watcher's Roar
 
 <span style="margin:auto;display:table;"><img src="/assets/kalos/p2barrage small.gif"></span>
 
@@ -207,7 +210,7 @@ Similar to Phase 1, this attack has an initial hit that does 10% HP and Seals, a
 
 The cooldown is 2m30s. Upon entering Phase 2, it will be on full cooldown. The cooldown does not tick while binded. For a typical KMS party with a single 10 second bind, the first use will occur at 2m40s after entering, and for the most part, in typical 3-minute burst parties, it is easily tracked because it occurs roughly once every burst;
 
-When Barrage is used, *a machine will instantly become hacked independent of the normal 1 minute cycle*, unless all 4 are already hacked. It is important to track this cooldown to avoid situations where the instant-hack inconveniently starts a insta-fail timer right after the party has just recovered from an instant-fail condition.
+When Roar is used, *a machine will instantly become hacked independent of the normal 1 minute cycle*, unless all 4 are already hacked. It is important to track this cooldown to avoid situations where the instant-hack inconveniently starts a insta-fail timer right after the party has just recovered from an instant-fail condition.
 
 ## Segment Test: Fury of the Watcher
 

@@ -33,13 +33,14 @@ function togglePhase(n) {
         laserEnd();
         bombReset();
     } else if (phase > 1){
+        bombReset();
         bombEta += 17000;
         roarEta += 27;
         hackEta += 17;
     }
     document.getElementById("phase").innerHTML = phasemap[phase];
     testState = false;
-    bombReset();
+    
 };
 
 function toggleTest() {
@@ -48,7 +49,7 @@ function toggleTest() {
     document.getElementById("hackTimer").innerHTML = '<span style="color:steelblue">Paused for test</span>';
     document.getElementById("roarTimer").innerHTML = '<span style="color:steelblue">Paused for test</span>';
 };
-function toggleTtest(){
+function failTest(){
     testState = false;
 }
 
