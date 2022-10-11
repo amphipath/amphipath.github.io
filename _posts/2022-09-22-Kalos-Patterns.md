@@ -117,7 +117,7 @@ The Orb is easily the least threatening of the 4 machines, but because of the ge
 
 Explosions will appear across the map. They will deal 30% max HP in damage. It is possible for them to overlap and stack their damage. Because of this, it is absolutely imperative for someone to be timing them and to warn the party when they are imminent. 
 
-Bombs occur every 15 seconds at the start of Phase 1; this timer becomes 10 seconds after Phase 1 falls below 50% HP. After this, bombs will be every 10.2 seconds instead. In Phase 2, Bombs are always every 10.2 seconds.
+Bombs occur every 15 seconds at the start of Phase 1; this timer becomes 10 seconds after Phase 1 falls below 50% HP. After this, bombs will be every 10 seconds instead. In Phase 2, Bombs are always every 10 seconds.
 
 
 # Phase 1
@@ -208,7 +208,7 @@ Kalos summons thunderbolts to strike around him. After using the skill, 5 thunde
 
 Similar to Phase 1, this attack has an initial hit that does 10% HP and Seals, and follows up with a larger hit that does 999% max HP. The area of the second hit is large enough to cover the platform above him, but not large enough to cover any platforms below him.
 
-The cooldown is 2m30s. Upon entering Phase 2, it will be on full cooldown. The cooldown does not tick while binded. For a typical KMS party with a single 10 second bind, the first use will occur at 2m40s after entering, and for the most part, in typical 3-minute burst parties, it is easily tracked because it occurs roughly once every burst;
+The cooldown is 2m30s. Upon entering Phase 2, it will be on full cooldown. The cooldown does not tick while binded. For a typical KMS party with a single 10 second bind, the first use will occur at 2m40s after entering, and for the most part, in typical 3-minute burst parties, it is easily tracked because it occurs roughly once every burst. *KMS 1.2.369: Binds no longer push back the Roar cycle.*
 
 When Roar is used, *a machine will instantly become hacked independent of the normal 1 minute cycle*, unless all 4 are already hacked. It is important to track this cooldown to avoid situations where the instant-hack inconveniently starts a insta-fail timer right after the party has just recovered from an instant-fail condition.
 
@@ -256,7 +256,7 @@ Upon passing the first segment test, a part of Kalos' wings breaks off and hover
 
 <span style="font-size:0.6em;text-align:center"><a href="https://youtu.be/Yk8rHmG4Lig">Video credit</a></span>
 
-Each area will be struck **twice** for 35% max HP damage, about 1 second apart, and like the normal Bombs, they can overlap.
+Each area will be struck **twice** for 35% max HP damage, about 1 second apart, and like the normal Bombs, they can overlap. *KMS 1.2.369: The explosions no longer occur twice.*
 
 Functionally, this becomes an independent Bomb cooldown, but *Bomb cannot occur at the same time as this cannon is firing*, and vice versa. It will wait until the current-occurring map attack is over before activating. Because of this, Bomb's cooldown becomes less certain and is not always 10.2 seconds. 
 

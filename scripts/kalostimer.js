@@ -70,7 +70,7 @@ function bombTick(){
     };
 };
 function bombReset(){
-    bombEta = 10200;
+    bombEta = 9900;
     if(bombTimerID == 0){
         bombTimerID = setInterval(bombTick,100);
     };
@@ -84,7 +84,7 @@ function bombEnd(){
 
 function laserTick(){
     if(laserEta < 100){
-        laserEta = 15000;
+        laserEta = 14900;
     };
     laserEta -= 100;
 
